@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Header from "@/components/organisms/header";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Header />
     </div>
   );
 }
